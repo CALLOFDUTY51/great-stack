@@ -1,0 +1,12 @@
+li:after{
+    
+    display: block;
+    width: 0%;
+    background: red;
+    content: '';
+    height: 2px;
+}
+li:hover::after{
+    text-align: center;
+    width: 50px;
+}
